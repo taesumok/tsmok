@@ -21,7 +21,7 @@ def json_request(url='', encoding='utf-8', success=None, error=lambda e: print('
 
     resp = requests.get(url, headers=headers)
     print(resp)
-    print('%s : success for request [%s]' % (datetime.now(), url
+    print('%s : success for request [%s]' % (datetime.now(), url))
 
 
     return resp.json()

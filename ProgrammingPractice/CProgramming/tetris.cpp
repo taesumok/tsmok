@@ -446,7 +446,7 @@ int key_wait(){
             }
             else{
                 rotateCooldown = clock();
-            }
+            }  
         }
         if( key == VK_SPACE ){
             begin = clock();
